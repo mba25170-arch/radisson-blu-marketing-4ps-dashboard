@@ -1,0 +1,27 @@
+📁 radisson-blu-marketing-4ps-dashboard/
+│
+├── 📄 README.md                  (Your project landing page)
+├── 📄 LICENSE
+│
+├── 📁 docs/                       (Your live website lives here)
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── 📁 reports/                    (PDFs)
+│   ├── Final_Report.pdf
+│   ├── Executive_Summary.pdf
+│   └── Viva_Presentation.pdf
+│
+├── 📁 data/                       (Excel, CSV)
+│   ├── survey_results.csv
+│   ├── kpi_data.xlsx
+│   └── competitor_benchmark.xlsx
+│
+├── 📁 visuals/                    (Images, charts)
+│   ├── hero-banner.png
+│   ├── 4ps-infographic.png
+│   └── /charts/
+│
+└── 📁 presentations/              (Canva exports)
+    └── viva_deck.pdf
