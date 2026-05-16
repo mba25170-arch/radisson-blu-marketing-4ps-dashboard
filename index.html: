@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Radisson Blu | 4Ps Marketing Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <h1>🏨 Radisson Blu</h1>
+    <h2>4Ps Marketing Audit & Digital Strategy Dashboard</h2>
+    <p>An MBA Internship Project · 2026</p>
+  </header>
+
+  <!-- KPI TILES -->
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <h3>ARR Index</h3>
+      <p class="kpi-value">112</p>
+      <span class="kpi-trend">▲ 12% potential</span>
+    </div>
+    <div class="kpi-card">
+      <h3>RevPAR Growth</h3>
+      <p class="kpi-value">+8–10%</p>
+    </div>
+    <div class="kpi-card">
+      <h3>Direct Booking</h3>
+      <p class="kpi-value">22% → 34%</p>
+    </div>
+    <div class="kpi-card">
+      <h3>Engagement Rate</h3>
+      <p class="kpi-value">1.8% → 3.0%</p>
+    </div>
+  </section>
+
+  <!-- CHART SECTION -->
+  <section class="chart-section">
+    <h2>📊 Booking Channel Mix</h2>
+    <canvas id="channelChart"></canvas>
+  </section>
+
+  <footer>
+    <p>Built by [Your Name] · MBA Marketing 2026 · <a href="https://linkedin.com/in/yourprofile">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
