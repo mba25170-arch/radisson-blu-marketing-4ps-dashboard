@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+body { background: #F7F8FA; color: #1F2937; }
+
+.hero {
+  background: linear-gradient(135deg, #002F6C, #0085CA);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 { font-size: 3rem; margin-bottom: 10px; }
+.hero h2 { font-size: 1.5rem; font-weight: 400; opacity: 0.9; }
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px 5%;
+}
+.kpi-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.kpi-card:hover { transform: translateY(-5px); }
+.kpi-card h3 { color: #6B7280; font-size: 0.9rem; text-transform: uppercase; }
+.kpi-value { font-size: 2.5rem; font-weight: 800; color: #002F6C; margin: 10px 0; }
+.kpi-trend { color: #10B981; font-weight: 600; }
+
+.chart-section {
+  background: white;
+  margin: 40px 5%;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+.chart-section h2 { margin-bottom: 30px; color: #002F6C; }
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #1F2937;
+  color: white;
+}
+footer a { color: #C8A951; text-decoration: none; }
